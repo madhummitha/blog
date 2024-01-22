@@ -3,6 +3,7 @@ import { getSortedPostsData, getPostData } from "@/lib/posts";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import React from "react";
+import { FaHome } from "react-icons/fa";
 
 export function generateStaticParams() {
   const posts = getSortedPostsData();
@@ -35,14 +36,16 @@ export default async function Post({ params }: { params: { postId: string } }) {
   const { title, date, contentHtml } = await getPostData(postId);
   const pubDate = getFormattedDate(date);
   return (
-    <main className="px-6 prose prose-xl prose-slate dark: prose-invert mx-auto">
+    <main className="px-6 prose prose-xl prose-slate dark: prose-invert mx-auto mt-4">
+      <p>
+        <Link href="/" className="">
+          <FaHome />
+        </Link>
+      </p>
       <h1 className="text-3xl mt-4 mb-0">{title}</h1>
       <p className="mt-0">{pubDate}</p>
       <article>
         <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
-        <p>
-          <Link href="/">Back to home</Link>
-        </p>
       </article>
     </main>
   );
