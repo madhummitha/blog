@@ -13,7 +13,7 @@ export default function Category({ params }: { params: { category: string } }) {
       </div>
       <ul className="w-full">
         {posts.map((post) => (
-          <ListItem key={post.id} post={post} />
+          <ListItem key={post.id} post={post} category={category} />
         ))}
       </ul>
     </section>
