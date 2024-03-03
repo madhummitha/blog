@@ -1,6 +1,7 @@
 ---
 title: "Test"
 date: "2024-01-18"
+category: "Books"
 ---
 
 ### Heading 1

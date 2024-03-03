@@ -1,6 +1,7 @@
 ---
 title: "Power Of Your Subconscious Mind"
 date: "2024-01-22"
+category: "Books"
 ---
 
 ### The Treasure House Within You
