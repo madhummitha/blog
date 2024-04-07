@@ -1,7 +1,7 @@
 ---
 title: "Test1"
 date: "2024-01-19"
-category: "General"
+category: "Books"
 ---
 
 ![Alt Text](/favicon.ico)

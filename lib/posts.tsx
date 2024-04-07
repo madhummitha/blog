@@ -16,8 +16,10 @@ export function getCategoryData() {
 
     return matterResult.data.category;
   });
-  const uniqueCategories = new Set(categories.sort((a, b) => a - b));
-  return Array.from(uniqueCategories);
+  // const uniqueCategories = new Set(categories.sort((a, b) => a - b));
+  const uniqueCategories = new Set(categories);
+  // return Array.from(uniqueCategories);
+  return Array.from(uniqueCategories).sort();
 }
 
 export function getSortedPostsData(category: string = "") {

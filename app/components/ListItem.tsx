@@ -13,13 +13,12 @@ export default function ListItem({ post, category }: Props) {
   return (
     <li className="text-cyan-600/90 text-2xl mt-4" key={id}>
       <Link
-        className="underline hover:text-cyan-700/90"
+        className="hover:text-cyan-700/90"
         href={`/categories/${category}/${id}`}
       >
-        {title}
+        📖 {title}
       </Link>
-      <br />
-      <p className="text-sm mt-1">{formattedDate}</p>
+      {/* <p className="text-sm mt-1"> {formattedDate}</p> */}
     </li>
   );
 }
