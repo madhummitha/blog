@@ -2,6 +2,7 @@
 title: "Kubernetes"
 date: "2024-04-07"
 category: "Tech"
+emoji: "☸️"
 ---
 
 Kubernetes, often abbreviated as K8s, is an open-source container orchestration platform initially developed by Google and now maintained by the Cloud Native Computing Foundation (CNCF). At its core, Kubernetes automates the deployment, scaling, and management of containerized applications. 🎢

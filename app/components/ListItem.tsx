@@ -8,7 +8,7 @@ type Props = {
 };
 
 export default function ListItem({ post, category }: Props) {
-  const { id, title, date } = post;
+  const { id, title, date, emoji } = post;
   const formattedDate = getFormattedDate(date);
   return (
     <li className="text-cyan-600/90 text-2xl mt-4" key={id}>
@@ -16,9 +16,8 @@ export default function ListItem({ post, category }: Props) {
         className="hover:text-cyan-700/90"
         href={`/categories/${category}/${id}`}
       >
-        📖 {title}
+        {emoji} {title}
       </Link>
-      {/* <p className="text-sm mt-1"> {formattedDate}</p> */}
     </li>
   );
 }

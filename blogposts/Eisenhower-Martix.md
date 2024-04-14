@@ -2,6 +2,7 @@
 title: "Eisenhower Matrix"
 date: "2024-01-19"
 category: "General"
+emoji: "🔢"
 ---
 
 ![Eisenhower Matrix](/images/eisenhowerMatrix.jpg)

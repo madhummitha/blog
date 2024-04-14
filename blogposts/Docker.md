@@ -2,6 +2,7 @@
 title: "Docker"
 date: "2024-04-07"
 category: "Tech"
+emoji: "🐳"
 ---
 
 #### Unlocking the Power of Docker 🐳

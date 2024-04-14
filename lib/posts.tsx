@@ -37,6 +37,7 @@ export function getSortedPostsData(category: string = "") {
       title: matterResult.data.title,
       date: matterResult.data.date,
       category: matterResult.data.category,
+      emoji: matterResult.data.emoji,
     };
     return blogPost;
   });

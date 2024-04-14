@@ -2,6 +2,7 @@
 title: "Power Of Your Subconscious Mind"
 date: "2024-01-22"
 category: "Books"
+emoji: "🧠"
 ---
 
 ### The Treasure House Within You

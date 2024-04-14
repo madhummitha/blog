@@ -2,6 +2,7 @@
 title: "Photography"
 date: "2024-04-07"
 category: "Photography"
+emoji: "📸"
 ---
 
 #### It's always better to be recognized as THE WOMEN BEHIND THE LENS than the WOMEN IN THE LENS.
@@ -17,8 +18,6 @@ Looking at old photos always brings a smile to our faces and takes us back to th
 #### Photography is an invisible time travel allowing us to relive the moments and emotions
 
 Anyone can take photos, but only those passionate about it can replicate the exact scenario.
-
-To become a good photographer, you need to master three basic rules which is composition, light and subject. Once you do that, you can capture the scene behind the lens.
 
 As you delve deeper into photography, your perspective and way of seeing things will inevitably change. 🤩
 
