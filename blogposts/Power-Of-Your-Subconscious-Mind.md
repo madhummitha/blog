@@ -5,6 +5,10 @@ category: "Books"
 emoji: "🧠"
 ---
 
+#### Author: Joseph Murphy
+
+---
+
 ### The Treasure House Within You
 
 > Water seeks its own level.

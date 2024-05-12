@@ -4,7 +4,7 @@ import { FaGithub, FaGlobe, FaLinkedin } from "react-icons/fa";
 
 export default function Navbar() {
   return (
-    <nav className="bg-slate-600 p-3 sticky top-0">
+    <nav className="bg-slate-600 p-3 sticky top-0 h-14">
       <div className="prose prose-xl mx-auto flex justify-between items-center sm:flex-row">
         <Link href="/" className="text-white/90 no-underline hover:text-white">
           Madhummitha R

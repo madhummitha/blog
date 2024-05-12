@@ -1,7 +1,7 @@
 ---
 title: "Travel"
 date: "2024-04-07"
-category: "Traveling"
+category: "General"
 emoji: "🌎"
 ---
 

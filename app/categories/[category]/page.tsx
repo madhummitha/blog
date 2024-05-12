@@ -9,7 +9,7 @@ export default function Category({ params }: { params: { category: string } }) {
   const posts = getSortedPostsData(category);
 
   return (
-    <section className=" mx-auto max-w-2xl">
+    <section className=" mx-auto max-w-2xl p-4">
       <Link href="/" className="px-6 prose prose-xl  text-white">
         <GoBack />
       </Link>

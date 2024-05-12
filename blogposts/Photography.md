@@ -1,7 +1,7 @@
 ---
 title: "Photography"
 date: "2024-04-07"
-category: "Photography"
+category: "General"
 emoji: "📸"
 ---
 

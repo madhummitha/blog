@@ -8,19 +8,20 @@ import { categoryImage } from "@/lib/images";
 export default function Categories() {
   const categories = getCategoryData();
   return (
-    <section className="mt-12 mx-auto max-w-2xl">
-      <div className="grid grid-cols-3 gap-8">
-        {categories.map((category, i) => (
-          <div key={i} className="relative">
-            <Link href={`categories/${category}`}>
-              <div className="group cursor-pointer">
-                <div className="relative">
+    <div className="flex justify-center items-center">
+      <section className="mx-auto w-8/12">
+        <div className="grid md:grid-cols-3 gap-9 md:grid-rows-1 sm:grid-rows-3">
+          {categories.map((category, i) => (
+            <div key={i} className="relative">
+              <Link href={`categories/${category}`}>
+                <div className="transform group-hover:scale-105 group cursor-pointer">
                   <Image
                     src={categoryImage(category)}
                     alt={`Image for ${category}`}
-                    className="rounded-md transition-transform duration-300 transform group-hover:scale-105"
-                    height={200}
-                    width={200}
+                    className="rounded-md transition-transform duration-300"
+                    layout="responsive"
+                    width={300}
+                    height={300}
                   />
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-50 rounded-md">
                     <span className="text-white text-lg font-semibold">
@@ -33,11 +34,11 @@ export default function Categories() {
                     {categoryEmoji(category)} {category}
                   </span>
                 </div>
-              </div>
-            </Link>
-          </div>
-        ))}
-      </div>
-    </section>
+              </Link>
+            </div>
+          ))}
+        </div>
+      </section>
+    </div>
   );
 }
