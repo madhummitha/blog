@@ -25,6 +25,7 @@ export default function Navbar() {
           <Link
             className="text-white/90 hover:text-white"
             href="https://madhummitha.vercel.app/"
+            target="_blank"
           >
             <FaGlobe />
           </Link>
